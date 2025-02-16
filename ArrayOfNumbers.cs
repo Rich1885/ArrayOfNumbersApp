@@ -20,7 +20,6 @@ namespace ArrayOfNumbersApp
             numbers = new int[size];
         } 
 
-
         public ArrayOfNumbers(int[] inputArray)
         {
             if(inputArray == null)

@@ -110,5 +110,20 @@ namespace ArrayOfNumbersApp
             return "[" + string.Join(", ", numbers) + "]";
         }
 
+        public void ScalarMultiply(int multiplier)
+        {
+            for (int i = 0; i < numbers.Length; i++)
+            {
+                numbers[i] *= multiplier;
+            }
+        }
+
+        public void AddConstant(int constant)
+        {
+            for (int i = 0; i < numbers.Length; i++)
+            {
+                numbers[i] += constant;
+            }
+        }
     }
 }
